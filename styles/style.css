@@ -1,0 +1,44 @@
+header p{position:relative;
+top:10px;
+font-style:Italic;
+text-align:center;
+}
+body{font-family:serif;
+background-image:URL(../Images/saintpeters.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+margin:10px;
+}
+main{
+	margin:15px 200px;
+	padding:20px;
+	border:solid black;
+	background:white;
+	min-height:500px;
+}
+.required{
+	font-weight:bold;
+	color:red;
+}
+label{
+	float:left;
+	width:112px;
+	padding-right:10px;
+	text-align:center;
+}
+input{
+	margin-left:1em;
+	margin-bottom:0.5em;
+width:220px;
+}
+input[type="radio"]{width:10px;}
+input[type="checkbox"]{width:15px;}
+#button{
+margin-left:138px;}
+#button,#reset
+{
+	margin-top:0.5em;
+	width:8em;
+	background-color:orange;
+	border:2px solid black;
+}
